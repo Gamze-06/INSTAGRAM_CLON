@@ -1,0 +1,130 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 54px;
+  z-index: 1032; 
+  background-color: #fff; 
+  
+}
+body {
+  padding: 60px; 
+  
+}
+.logo {
+  margin-left: 192px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+
+input::placeholder {
+  background-image: url('../assets/search-solid.svg');
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  background-size: 16px 16px;
+  padding-left: 30px;
+}
+
+::placeholder{
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-image:-webkit-image-set("search-solid.svg");
+  background-position: 40%;
+  background-size: 6%;
+}
+
+
+.menu-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 10px);
+  padding-bottom: 10px;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+  object-fit: cover;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+  white-space: nowrap;
+}
+
+
+.card-body {
+  display:inline-block;
+  flex-direction: column;
+  gap:4px;
+}
+.card-header{
+  height: 70px;
+}
+.mt-2 {
+  display:grid;
+  text-align: right;
+  }
+
+.card-footer {
+  display: grid;
+  text-align: right;
+  color: white;
+  border-radius: 0%;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+
+
+.navbar-nav .nav-link i {
+  margin-right: 5px; 
+  font-size: 1.2rem;
+  transition: transform 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover i {
+  transform: scale(1.5); 
+}
+
+.middlearea {
+  max-height: 200px !important;
+}
+
